@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Rehaan - AI Developer & Data Scientist</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo animate-slide-down">
+                <span class="gradient-text">Abdul Rehaan</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="animate-slide-down"><a href="#home" class="nav-link">Home</a></li>
+                <li class="animate-slide-down"><a href="#about" class="nav-link">About</a></li>
+                <li class="animate-slide-down"><a href="#education" class="nav-link">Education</a></li>
+                <li class="animate-slide-down"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="animate-slide-down"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="animate-slide-down"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="animate-slide-down"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger animate-slide-down">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="hero-canvas"></canvas>
+        <div class="floating-shapes">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="floating-shape shape-4"></div>
+            <div class="floating-shape shape-5"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title animate-fade-up">
+                    Hi, I'm <span class="gradient-text">Abdul Rehaan</span>
+                </h1>
+                <div class="hero-subtitle animate-fade-up" style="animation-delay: 0.2s;">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description animate-fade-up" style="animation-delay: 0.4s;">
+                    BE Information Technology Student passionate about AI, Machine Learning, and Data Science. 
+                    Building innovative solutions with cutting-edge technology.
+                </p>
+                <div class="hero-buttons animate-fade-up" style="animation-delay: 0.6s;">
+                    <a href="#projects" class="btn btn--primary btn-animated">
+                        <span>View My Work</span>
+                        <div class="btn-ripple"></div>
+                    </a>
+                    <a href="#contact" class="btn btn--outline btn-animated">
+                        <span>Get In Touch</span>
+                        <div class="btn-ripple"></div>
+                    </a>
+                </div>
+                <div class="social-links animate-fade-up" style="animation-delay: 0.8s;">
+                    <a href="mailto:abdulrehaan7711@gmail.com" class="social-link floating-icon" target="_blank">
+                        <span>Email</span>
+                    </a>
+                    <a href="tel:+918498957711" class="social-link floating-icon">
+                        <span>Phone</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator animate-bounce">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="section-background">
+            <div class="floating-particles"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">About Me</h2>
+            <div class="about-content">
+                <div class="about-text animate-on-scroll">
+                    <p class="text-reveal">
+                        I'm Abdul Rehaan, a dedicated Information Technology student with a passion for Artificial Intelligence 
+                        and Data Science. Currently pursuing my BE degree with an impressive 8.54 CGPA, I combine academic 
+                        excellence with practical experience in AI development.
+                    </p>
+                    <p class="text-reveal">
+                        As an AI Intern at Prodigal AI Technologies, I work on cutting-edge AI and Blockchain-based product 
+                        development, focusing on Large Language Models and real-time AI applications. My expertise spans 
+                        Computer Vision, Machine Learning, Deep Learning, and Natural Language Processing.
+                    </p>
+                    <p class="text-reveal">
+                        I've successfully developed multiple AI-powered projects including botnet detection systems, 
+                        smart traffic control solutions, and sign language recognition systems. My work has been recognized 
+                        through publications in Scopus-indexed journals.
+                    </p>
+                </div>
+                <div class="about-stats animate-on-scroll">
+                    <div class="stat-item floating-card" data-target="8.54">
+                        <h3 class="gradient-text counter-number">0</h3>
+                        <p>CGPA</p>
+                        <div class="stat-progress"></div>
+                    </div>
+                    <div class="stat-item floating-card" data-target="15">
+                        <h3 class="gradient-text counter-number">0</h3>
+                        <p>Projects</p>
+                        <div class="stat-progress"></div>
+                    </div>
+                    <div class="stat-item floating-card" data-target="2">
+                        <h3 class="gradient-text counter-number">0</h3>
+                        <p>Internships</p>
+                        <div class="stat-progress"></div>
+                    </div>
+                    <div class="stat-item floating-card" data-target="1">
+                        <h3 class="gradient-text counter-number">0</h3>
+                        <p>Publications</p>
+                        <div class="stat-progress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+        <div class="section-background">
+            <div class="educational-elements">
+                <div class="floating-degree">🎓</div>
+                <div class="floating-book">📚</div>
+                <div class="floating-lightbulb">💡</div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="section-title animate-fade-up">Education</h2>
+            <div class="education-timeline">
+                <div class="timeline-line"></div>
+                <div class="education-item card-3d animate-fade-up">
+                    <div class="card__body">
+                        <div class="education-icon">🎓</div>
+                        <div class="education-header">
+                            <h3 class="highlight-text">Bachelor of Engineering - Information Technology</h3>
+                            <span class="education-period pulse-animation highlight-text">2021 - 2025</span>
+                        </div>
+                        <p class="education-institution">Muffakham Jah College of Engineering & Technology</p>
+                        <div class="education-grade">
+                            <span class="status status--success glow-effect highlight-text">CGPA: 8.54</span>
+                        </div>
+                        <p class="education-location">Hyderabad, Telangana, India</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="section-background">
+            <div class="wave-animation"></div>
+            <div class="floating-icons">
+                <div class="work-icon">💼</div>
+                <div class="ai-icon">🤖</div>
+                <div class="data-icon">📊</div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="section-title animate-fade-up">Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-line animated-line"></div>
+                <div class="timeline-item animate-fade-up">
+                    <div class="timeline-marker pulse-marker"></div>
+                    <div class="timeline-content card-3d">
+                        <div class="card__body">
+                            <div class="experience-icon">🤖</div>
+                            <div class="experience-header">
+                                <h3 class="highlight-text">AI Intern</h3>
+                                <span class="experience-period glow-badge highlight-text">July 2025 - Present</span>
+                            </div>
+                            <p class="experience-company highlight-text">Prodigal AI Technologies Pvt. Ltd.</p>
+                            <p class="experience-location">Remote, Hyderabad</p>
+                            <p class="experience-description">
+                                Working on <span class="highlight-text">AI and Blockchain-based product development</span> under professional mentorship. 
+                                Focused on <span class="highlight-text">LLMs</span> and real-time application of AI tools in collaborative projects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item animate-fade-up">
+                    <div class="timeline-marker pulse-marker"></div>
+                    <div class="timeline-content card-3d">
+                        <div class="card__body">
+                            <div class="experience-icon">📊</div>
+                            <div class="experience-header">
+                                <h3 class="highlight-text">Data Science Intern</h3>
+                                <span class="experience-period glow-badge highlight-text">Nov 2024 - Dec 2024</span>
+                            </div>
+                            <p class="experience-company highlight-text">SkillDzire</p>
+                            <p class="experience-description">
+                                Developed a <span class="highlight-text">movie recommendation system</span> using collaborative filtering. 
+                                Applied <span class="highlight-text">machine learning algorithms</span> to real-time user preference data.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="section-background">
+            <div class="code-rain"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title animate-fade-up">Featured Projects</h2>
+            <div class="projects-filter animate-fade-up">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+                <button class="filter-btn" data-filter="cv">Computer Vision</button>
+                <button class="filter-btn" data-filter="ds">Data Science</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card card-3d animate-fade-up" data-category="ai cv">
+                    <div class="card__body">
+                        <div class="project-icon">🛡️</div>
+                        <div class="project-header">
+                            <h3 class="highlight-text">Next-Gen Cybersecurity: Botnet Detection System</h3>
+                            <span class="project-date glow-badge highlight-text">May 2025</span>
+                        </div>
+                        <p class="project-description">
+                            Built a botnet detection system using <span class="highlight-text">CNN</span> and <span class="highlight-text">RNN</span> models. Applied <span class="highlight-text">K-fold cross-validation</span> to validate model robustness and performance.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag floating-tag highlight-text">Python</span>
+                            <span class="tag floating-tag highlight-text">SQL</span>
+                            <span class="tag floating-tag highlight-text">CNN</span>
+                            <span class="tag floating-tag highlight-text">RNN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card card-3d animate-fade-up" data-category="ds ai">
+                    <div class="card__body">
+                        <div class="project-icon">📄</div>
+                        <div class="project-header">
+                            <h3 class="highlight-text">Smart Resume Analyzer</h3>
+                            <span class="project-date glow-badge highlight-text">March 2025</span>
+                        </div>
+                        <p class="project-description">
+                            Built a resume screening application using <span class="highlight-text">TF-IDF</span> and <span class="highlight-text">KNN</span> for job prediction. Enabled real-time resume analysis and job category prediction.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag floating-tag highlight-text">Python</span>
+                            <span class="tag floating-tag highlight-text">Streamlit</span>
+                            <span class="tag floating-tag highlight-text">TF-IDF</span>
+                            <span class="tag floating-tag highlight-text">KNN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card card-3d animate-fade-up" data-category="cv ai">
+                    <div class="card__body">
+                        <div class="project-icon">🚦</div>
+                        <div class="project-header">
+                            <h3 class="highlight-text">Smart Traffic Control System</h3>
+                            <span class="project-date glow-badge highlight-text">Jan 2025</span>
+                        </div>
+                        <p class="project-description">
+                            Developed an AI-based Smart Traffic Control System using <span class="highlight-text">Python</span>, <span class="highlight-text">OpenCV</span>, <span class="highlight-text">YOLO</span> for real-time vehicle density detection.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag floating-tag highlight-text">Python</span>
+                            <span class="tag floating-tag highlight-text">OpenCV</span>
+                            <span class="tag floating-tag highlight-text">YOLO</span>
+                            <span class="tag floating-tag highlight-text">NumPy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card card-3d animate-fade-up" data-category="cv ai">
+                    <div class="card__body">
+                        <div class="project-icon">👋</div>
+                        <div class="project-header">
+                            <h3 class="highlight-text">Sign Language Detection System</h3>
+                            <span class="project-date glow-badge highlight-text">Jan 2025</span>
+                        </div>
+                        <p class="project-description">
+                            Developed a real-time sign language recognition system using webcam input. Trained ML model to recognize gestures with bounding box visualization.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag floating-tag highlight-text">Python</span>
+                            <span class="tag floating-tag highlight-text">OpenCV</span>
+                            <span class="tag floating-tag highlight-text">MediaPipe</span>
+                            <span class="tag floating-tag highlight-text">Scikit-learn</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="section-background">
+            <div class="skill-bubbles">
+                <div class="bubble bubble-1">{ }</div>
+                <div class="bubble bubble-2">&lt;/&gt;</div>
+                <div class="bubble bubble-3">AI</div>
+                <div class="bubble bubble-4">ML</div>
+                <div class="bubble bubble-5">🐍</div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category floating-skill animate-on-scroll" data-delay="0.1">
+                    <div class="skill-header">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-icon">💻</div>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category floating-skill animate-on-scroll" data-delay="0.2">
+                    <div class="skill-header">
+                        <h3>AI & Machine Learning</h3>
+                        <div class="skill-icon">🤖</div>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Machine Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Deep Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Computer Vision</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category floating-skill animate-on-scroll" data-delay="0.3">
+                    <div class="skill-header">
+                        <h3>Tools & Frameworks</h3>
+                        <div class="skill-icon">🛠️</div>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">TensorFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">OpenCV</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Scikit-learn</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section publications-section">
+        <div class="section-background">
+            <div class="academic-elements">
+                <div class="floating-formula">∑</div>
+                <div class="floating-graph">📈</div>
+                <div class="floating-research">🔬</div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Publications</h2>
+            <div class="publications-content">
+                <div class="publication-item card-3d animate-on-scroll">
+                    <div class="card__body">
+                        <div class="publication-icon">📄</div>
+                        <h3>Huffman-Based LZW Lossless Image Compression Using Retinex Algorithm</h3>
+                        <p class="publication-journal">
+                            <span class="status status--info glow-effect">Utilitas Mathematica (Scopus Q4)</span>
+                        </p>
+                        <p class="publication-description">
+                            Focused on efficient image compression techniques combining Huffman coding & Retinex algorithm.
+                        </p>
+                        <div class="publication-stats">
+                            <div class="stat-badge">
+                                <span class="stat-number counter-number" data-target="12">0</span>
+                                <span class="stat-label">Citations</span>
+                            </div>
+                            <div class="stat-badge">
+                                <span class="stat-label">Impact: Q4 Scopus</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="section-background">
+            <div class="communication-elements">
+                <div class="floating-message">💬</div>
+                <div class="floating-email">📧</div>
+                <div class="floating-phone">📱</div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="section-title animate-fade-up">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info animate-fade-up">
+                    <h3 class="highlight-text">Let's Connect</h3>
+                    <p class="contact-description highlight-text">
+                        I'm always interested in discussing <span class="highlight-text">new opportunities</span>, <span class="highlight-text">innovative projects</span>, or <span class="highlight-text">collaborations</span> in AI and Data Science.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item floating-contact">
+                            <strong class="highlight-text">Email:</strong>
+                            <a href="mailto:abdulrehaan7711@gmail.com" class="highlight-text">abdulrehaan7711@gmail.com</a>
+                        </div>
+                        <div class="contact-item floating-contact">
+                            <strong class="highlight-text">Phone:</strong>
+                            <a href="tel:+918498957711" class="highlight-text">+91 8498957711</a>
+                        </div>
+                        <div class="contact-item floating-contact">
+                            <strong class="highlight-text">Location:</strong>
+                            <span class="highlight-text">Hyderabad, Telangana - 502286, India</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form animate-fade-up">
+                    <h3 class="highlight-text">Send a Message</h3>
+                    <form id="contact-form" class="animated-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label highlight-text">Name</label>
+                            <input type="text" id="name" name="name" class="form-control animated-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label highlight-text">Email</label>
+                            <input type="email" id="email" name="email" class="form-control animated-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label highlight-text">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control animated-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label highlight-text">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form-control animated-input" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width btn-animated success-animation">
+                            <span>Send Message</span>
+                            <div class="btn-ripple"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p class="typewriter-footer">&copy; 2025 Abdul Rehaan. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" class="back-to-top floating-icon">Back to Top ↑</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
